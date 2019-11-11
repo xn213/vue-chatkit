@@ -13,7 +13,7 @@
 <script>
 import { mapState, mapMutations, mapActions } from 'vuex'
   export default {
-    name: 'ChatNavBar',
+    name: 'chat-nav-bar',
     data() {
       return {
         

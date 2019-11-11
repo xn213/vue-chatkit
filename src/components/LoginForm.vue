@@ -30,7 +30,7 @@
 <script>
 import { mapState, mapGetters, mapActions } from 'vuex'
   export default {
-    name: 'lgoin-form',
+    name: 'login-form',
     data() {
       return {
         userId: '',

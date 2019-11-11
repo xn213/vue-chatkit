@@ -6,13 +6,13 @@
       <b-alert variant="danger" :show="hasError">{{ error }}</b-alert>
       <b-form-group>
         <b-form-input id="message-input"
-          type="text"
-          v-model="message"
-          @input="isTyping"
-          placeholder="Enter Message"
-          autocomplete="off"
-          required
-        ></b-form-input>
+                      type="text"
+                      v-model="message"
+                      @input="isTyping"
+                      placeholder="Enter Message"
+                      autocomplete="off"
+                      required>
+        </b-form-input>
       </b-form-group>
       <div class="clearfix">
         <b-button type="submit" variant="primary" class="float-right">

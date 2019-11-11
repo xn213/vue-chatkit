@@ -9,6 +9,7 @@ const MESSAGE_LIMIT = Number(process.env.VUE_APP_MESSAGE_LIMIT) || 10
 let currentUser = null
 let activeRoom = null
 
+// 连接到 pusher.com/chatkit
 async function connectUser(userId){
   const chatManager = new ChatManager({
     instanceLocator: INSTANCE_LOCATOR,
